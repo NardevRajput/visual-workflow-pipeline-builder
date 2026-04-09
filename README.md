@@ -13,5 +13,3 @@ A full-stack web application to create and manage node-based workflows using a v
 cd frontend
 npm install
 npm start
-
-
