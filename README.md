@@ -13,3 +13,11 @@ A full-stack web application to create and manage node-based workflows using a v
 cd frontend
 npm install
 npm start
+```
+
+### 2. Backend
+```bash
+cd backend
+pip install fastapi uvicorn
+uvicorn main:app --reload
+```
