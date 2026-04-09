@@ -1,0 +1,89 @@
+/* App layout */
+
+.app-container{
+  display:flex;
+  height:100vh;
+  width:100%;
+  overflow:hidden;
+  background:#f1f5f9;
+}
+
+/* Sidebar */
+
+.pipeline-toolbar{
+  width:220px;
+  min-width:220px;
+  height:100vh;
+  background:linear-gradient(180deg,#1e293b,#020617);
+  padding:20px;
+  box-sizing:border-box;
+  overflow-y:auto;
+}
+
+/* ReactFlow canvas */
+
+.reactflow-wrapper{
+  flex:1;
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+
+/* Submit button */
+
+.submit-container{
+  position:absolute;
+  bottom:30px;
+  left:50%;
+  transform:translateX(-50%);
+  z-index:10;
+}
+
+.submit-btn{
+  background:linear-gradient(135deg,#3b82f6,#2563eb);
+  color:white;
+  padding:12px 40px;
+  border:none;
+  border-radius:8px;
+  font-size:16px;
+  font-weight:600;
+  cursor:pointer;
+  box-shadow:0 10px 20px rgba(0,0,0,0.2);
+  transition:0.2s;
+}
+
+.submit-btn:hover{
+  transform:scale(1.05);
+}
+
+/* ReactFlow controls visible */
+
+.react-flow__controls button{
+  background:white;
+  color:black;
+  border:1px solid #d1d5db;
+}
+
+.react-flow__controls svg{
+  fill:black;
+}
+.react-flow__controls button:hover{
+  background:#f1f5f9;
+}
+.react-flow{
+  cursor:default;
+}
+
+.toolbar-node{
+  cursor:grab;
+}
+
+.toolbar-node:active{
+  cursor:grabbing;
+}
+.react-flow__selection{
+  border:1px dashed #3b82f6;
+}
+.react-flow__minimap{
+  background:#f8fafc;
+}

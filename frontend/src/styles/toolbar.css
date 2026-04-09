@@ -1,0 +1,74 @@
+.pipeline-toolbar{
+  width:220px;
+  min-width:220px;
+  height:100vh;
+  background:linear-gradient(180deg,#1e293b,#020617);
+  padding:20px;
+  box-sizing:border-box;
+}
+
+.toolbar-container{
+  display:flex;
+  flex-direction:column;
+  gap:14px;
+}
+
+.toolbar-node{
+  cursor:grab;
+  width:180px;
+  height:60px;
+  background:#1C2536;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:white;
+  font-weight:500;
+  transition:0.2s;
+}
+
+.toolbar-node:hover{
+  background:#334155;
+  transform:translateY(-2px);
+}
+
+.node-label{
+  color:white;
+  font-size:14px;
+}
+
+.toolbar-node:nth-child(1){
+  background:#2563eb;
+}
+
+.toolbar-node:nth-child(2){
+  background:#7c3aed;
+}
+
+.toolbar-node:nth-child(3){
+  background:#0ea5e9;
+}
+
+.toolbar-node:nth-child(4){
+  background:#10b981;
+}
+
+.toolbar-node:nth-child(5){
+  background:#f59e0b;
+}
+
+.toolbar-node:nth-child(6){
+  background:#f97316;
+}
+
+.toolbar-node:nth-child(7){
+  background:#06b6d4;
+}
+
+.toolbar-node:nth-child(8){
+  background:#ef4444;
+}
+
+.toolbar-node:nth-child(9){
+  background:#64748b;
+}

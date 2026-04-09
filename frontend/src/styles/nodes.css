@@ -1,0 +1,26 @@
+.node-card{
+  width:220px;
+  min-height:80px;
+  background:white;
+  border-radius:12px;
+  border:1px solid #e5e7eb;
+  padding:12px;
+  box-shadow:0 6px 20px rgba(0,0,0,0.08);
+  font-size:12px;
+  transition:0.2s;
+}
+
+.node-card:hover{
+  transform:translateY(-2px);
+  box-shadow:0 8px 24px rgba(0,0,0,0.12);
+}
+
+.node-header{
+  font-weight:600;
+  font-size:13px;
+  margin-bottom:6px;
+}
+
+.node-body{
+  font-size:12px;
+}
